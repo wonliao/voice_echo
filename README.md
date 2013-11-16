@@ -5,7 +5,7 @@ voice_echo
 
 youtube 影片
 
-[![youtube 影片](http://img.youtube.com/vi/_-YAotdwXSM/0.jpg)](http://www.youtube.com/watch?v=_-YAotdwXSM)
+[![youtube 影片](http://img.youtube.com/vi/VTsbQbhvcAk/0.jpg)](http://www.youtube.com/watch?v=VTsbQbhvcAk)
 
 說明
 
