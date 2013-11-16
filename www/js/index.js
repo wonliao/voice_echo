@@ -62,15 +62,14 @@ var app = {
 			
 			var path = mediaFiles[i].fullPath;
 			console.log( "path(" + path + ")" );
+
+            LowLatencyAudio.loadSong( '1', path ); // 第一部合聲
+            LowLatencyAudio.loadSong( '2', path ); // 第二部合聲
+            LowLatencyAudio.loadSong( '3', path ); // 第三部合聲
+            LowLatencyAudio.pitch( '1', '1.5'  );  // 將第一部合聲的 pitch 提高 1.5 倍
+            LowLatencyAudio.pitch( '2', '2.0'  );  // 將第二部合聲的 pitch 提高 2.0 倍
+            LowLatencyAudio.pitch( '3', '2.5'  );  // 將第三部合聲的 pitch 提高 2.5 倍
             
-            
-			LowLatencyAudio.loadSong( '1', path );
-			LowLatencyAudio.loadSong( '2', path );
-			LowLatencyAudio.loadSong( '3', path );
-			LowLatencyAudio.pitch( '1', '1.5'  );
-			LowLatencyAudio.pitch( '2', '2.0'  );
-			LowLatencyAudio.pitch( '3', '2.5'  );
-			
 			setTimeout( function() {
 				LowLatencyAudio.play2( 'all' );
 			}, 2000 );
